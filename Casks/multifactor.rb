@@ -1,9 +1,9 @@
 cask "multifactor" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.4.0"
-  sha256 arm:   "7ad2630f2a9e5d4eadf5f9cd352d6dc45c7681dd211cb47379a63b48bb294b56",
-         intel: "df53a42b2d2cb23bb57ba6b70e8c49d7ea24283b7735bfcd93452cbfe2fcac58"
+  version "1.4.1"
+  sha256 arm:   "c6862772da86fa4a252f5d768886d6d98574de62d8f2bde3115c4eda52386b34",
+         intel: "3d1ad368b98d1edbb9bda50f84568a51a271f2d8873d1ac1a85b0d58a387fc8a"
 
   url "https://downloads.multifactor.com/files/#{version}/Multifactor_#{version}_#{arch}.dmg"
   name "Multifactor"
